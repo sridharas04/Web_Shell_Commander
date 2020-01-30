@@ -14,3 +14,8 @@ Shell can php,asp,etc... but it must be a command shell!
 os can be windows/linux/mac.
 
 For windows it gives powershell environment, for linux and mac it gives bash environment.
+
+## Requirements
+1.Python3 or greater
+2.curl
+
