@@ -28,7 +28,7 @@ count = len(arguments)
 if count < 1:
     print("\nThis program requires 4 arguments!\n")
 else:
-    port = str(80) #port
+    port = str(port) #port
     handler = "curl -s -k"
     proto = "http";pwd_cmd = "pwd"
     env = "$";pwd = "pwd"
