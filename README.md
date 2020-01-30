@@ -1,9 +1,9 @@
 # Web_Shell_Commander
 This is a python script which provides a stable and interactive environment for simple web shells.
 
-# Author : Darkprince
+## Author : Darkprince
 
-# Usage :
+## Usage :
 
 python3 shell.py target.com 80 /blog/shell.php?cmd= linux 
 
