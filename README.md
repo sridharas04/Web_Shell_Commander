@@ -2,7 +2,7 @@
 This is a python script which provides a stable and interactive environment for simple web shells.
 
 ## Author : Darkprince
-## Video : https://www.linkedin.com/posts/darkprince-sri_shell-htb-hack-activity-6628638740518670336-N167
+Video : https://www.linkedin.com/posts/darkprince-sri_shell-htb-hack-activity-6628638740518670336-N167
 
 ## Usage :
 
